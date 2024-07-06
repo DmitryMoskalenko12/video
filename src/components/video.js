@@ -14,12 +14,12 @@ const Video = () => {
         </div>
 
         <div className='home-text'>
-            <h1>The ideal Island</h1>
-            <p>Come live out your ideal vacation with us</p>
+            <h1>Reliable company</h1>
+            <p>Entrust your cargo to our company</p>
         </div>
 
         <div className='home-btn'>Explore</div>
-        
+
     </div>
 }
 

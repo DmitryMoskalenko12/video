@@ -1,9 +1,11 @@
 import './video.css';
-import video from '../media/video.mp4';
+/* import video from '../media/video.hevc.mp4'; */
 
 const Video = () => {
     return <div className='landingpage'>
-        <video src={video} autoPlay muted loop className='video-bg'></video>
+        <video  autoPlay muted loop className='video-bg'>
+        <source src="https://dl.dropboxusercontent.com/s/sn4fhjkod6io3ipjulw6f/video.mp4?rlkey=omnrxl6qnpl05jxtyw8fcc8e6&st=eple1kdn&dl=1" type="video/mp4"/>
+        </video>
         <div className='bg-overlay'></div>
         <div className='navbar'>
             <div className='menu'>
